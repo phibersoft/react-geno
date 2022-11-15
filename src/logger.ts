@@ -5,7 +5,7 @@ const logger = (message: string, type: 'info' | 'error' | 'success' = 'info'): v
         success: '\x1b[32m',
     };
 
-    console.log(colors[type], message);
+    console.log(colors[type], message, '\x1b[0m');
 }
 
 export default logger;
