@@ -1,6 +1,6 @@
 {
   "name": "react-geno",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A cli-tool for generating react components",
   "main": "dist/react-geno.js",
   "bin": {
